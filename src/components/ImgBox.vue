@@ -13,7 +13,7 @@ const { width } = useWindowSize()
 // 根據螢幕寬度切換圖片
 const imageSrc = computed(() => {
   return width.value > 992
-    ? 'src/assets/images/illustration-sign-up-desktop.svg'
-    : 'src/assets/images/illustration-sign-up-mobile.svg'
+    ? '/src/assets/images/illustration-sign-up-desktop.svg'
+    : '/src/assets/images/illustration-sign-up-mobile.svg'
 })
 </script>
